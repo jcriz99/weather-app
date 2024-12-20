@@ -1,24 +1,34 @@
 # Weather Fetch App
 
-A simple web application that retrieves the current weather of a specified city using the OpenWeatherMap API. Enter a city name, hit "Search," and see the temperature, weather conditions, and an associated icon.
+A simple web application that retrieves the current weather for a specified city using the OpenWeatherMap API.
 
 ## Features
 
 - **City-based Search:** Input any city name and fetch its current weather.
-- **Real-Time Data:** Uses OpenWeatherMap API to display up-to-date conditions.
-- **Error Handling:** Informs you if the city isn’t found or if something goes wrong.
-- **Clean UI:** A minimal, modern design that’s easy to use and mobile-friendly.
+- **Real-Time Data:** Uses the OpenWeatherMap API to display up-to-date temperature and conditions.
+- **Error Handling:** If the city isn't found or something goes wrong, a clear message is displayed.
+- **Clean UI:** Modern, responsive design that looks great on desktops and mobile devices.
 
 ## Live Demo
 
-[View Live Demo](https://jcriz99.github.io/weather-app/)
+[View Live Demo](https://jcriz99.github.io/weather-app/) *(Update this link with your username if needed.)*
 
 ## Setup & Usage
 
-1. **Obtain an API Key:**  
-   Sign up on [OpenWeatherMap](https://openweathermap.org/) for a free API key.
+1. **Already Set API Key:**  
+   The code currently uses the provided API key `dcb701ea617be4a3b2d29c6afce4ae2d`.  
+   If you want to use a different key, update the `API_KEY` constant in `script.js`.
 
-2. **Insert Your API Key:**  
-   In `script.js`, replace `YOUR_API_KEY` with your actual key:
-   ```javascript
-   const API_KEY = 'YOUR_API_KEY';
+2. **Run Locally:**  
+   Just open `index.html` in your browser. No server required.
+
+## Technologies Used
+
+- **HTML5** for structure
+- **CSS3** for styling
+- **JavaScript** (Fetch API) for asynchronous data retrieval
+- **OpenWeatherMap API** for weather data
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). *(Create a LICENSE file if desired.)*
