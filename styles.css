@@ -11,11 +11,31 @@ body {
     padding: 50px 20px;
 }
 
+background: linear-gradient(
+    to bottom right,
+    #74abe2 0%,
+    #6f9fde 40%,
+    #5c79d9 80%,
+    #5563de 100%
+);
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: linear-gradient(to bottom right, #74abe2, #5563de);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay; /* If combined with a semi-transparent texture image */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333;
+    padding: 50px 20px;
 }
+
 
 .app-container {
     background: #fff;
