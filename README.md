@@ -31,4 +31,4 @@ A simple web application that retrieves the current weather for a specified city
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). *(Create a LICENSE file if desired.)*
+This project is licensed under the [MIT License](LICENSE).
