@@ -1,12 +1,20 @@
 body {
-    margin: 0;
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(135deg, #74ABE2 0%, #5563DE 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 20px;
     color: #333;
+    padding: 50px 20px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .app-container {
