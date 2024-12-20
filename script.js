@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const weatherIcon = document.getElementById('weatherIcon');
     const spinnerContainer = document.getElementById('spinnerContainer');
 
-    const API_KEY = 'YOUR_API_KEY'; // Insert your OpenWeatherMap API key here
+    const API_KEY = 'dcb701ea617be4a3b2d29c6afce4ae2d'; // Insert your OpenWeatherMap API key here
 
     searchBtn.addEventListener('click', () => {
         fetchWeather();
