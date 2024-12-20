@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const description = document.getElementById('description');
     const weatherIcon = document.getElementById('weatherIcon');
 
-    const API_KEY = 'dcb701ea617be4a3b2d29c6afce4ae2d'; // Replace with your OpenWeatherMap API key
+    const API_KEY = 'dcb701ea617be4a3b2d29c6afce4ae2d'; // Your provided API key
 
     searchBtn.addEventListener('click', () => {
         const city = cityInput.value.trim();
@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const data = await response.json();
 
-            // Extract needed data
             const temp = Math.round(data.main.temp);
             const desc = data.weather[0].description;
             const icon = data.weather[0].icon;
