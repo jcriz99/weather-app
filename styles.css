@@ -1,6 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #74ABE2 0%, #5563DE 100%);
+    background: linear-gradient(
+        to bottom right,
+        #74abe2 0%,
+        #6f9fde 40%,
+        #5c79d9 80%,
+        #5563de 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,13 +16,7 @@ body {
     padding: 50px 20px;
 }
 
-background: linear-gradient(
-    to bottom right,
-    #74abe2 0%,
-    #6f9fde 40%,
-    #5c79d9 80%,
-    #5563de 100%
-);
+
 
 html, body {
     margin: 0;
