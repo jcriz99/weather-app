@@ -74,8 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showWeatherCard() {
         weatherCard.classList.remove('hidden');
-        // Trigger reflow for transition
-        weatherCard.offsetHeight; 
+        // Trigger reflow to start transition
+        weatherCard.offsetHeight;
         weatherCard.classList.add('shown');
     }
 
