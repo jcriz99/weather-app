@@ -11,7 +11,7 @@ A simple web application that retrieves the current weather for a specified city
 
 ## Live Demo
 
-[View Live Demo](https://jcriz99.github.io/weather-app/) *(Update this link with your username if needed.)*
+[View Live Demo](https://jcriz99.github.io/weather-app/)
 
 ## Setup & Usage
 
